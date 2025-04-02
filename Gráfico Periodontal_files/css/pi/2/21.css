@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 21 bukkal */
+
+#pi_21_db_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 720.05px;
+	top: 415.05px;
+}
+
+#pi_21_b_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 705.55px;
+	top: 415.05px;
+}
+
+#pi_21_mb_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 692.05px;
+	top: 415.05px;
+}
+
+#pi_21_db_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#pi_21_b_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#pi_21_mb_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+/* 21 palatinal */
+
+#pi_21_dp_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 720.05px;
+	top: 849.4px;
+}
+
+#pi_21_p_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 705.55px;
+	top: 849.4px;
+}
+
+#pi_21_mp_btn {
+	position: absolute;
+	z-index: 40;
+	width: 10.25px;
+	height: 13.95px;
+	left: 692.05px;
+	top: 849.4px;
+}
+
+#pi_21_dp_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#pi_21_p_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}
+
+#pi_21_mp_rectangle {
+	position: relative;
+	top: 0px;
+	line-height: 13.95px; 
+	z-index: 30;
+	margin: auto;
+	text-align: center;
+	pointer-events: none;
+}

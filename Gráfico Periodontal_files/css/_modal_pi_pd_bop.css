@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modal_pi_pd_bop_output {
+	position: absolute;
+	z-index: 70;
+	height: 17px;
+	border: none;
+	font-family: "Arial Narrow", Sans-Serif;
+    font-stretch: extra-condensed;
+    font-size: 24px;
+    font-weight: bold;
+	padding: 0;
+	}
+
+#modal_pi_date {
+    top: 218px;
+    left: 965px;
+	width: 100px;
+    height: 23px;
+	text-align: left;
+}
+
+#modal_pd_bop_date {
+    top: 509px;
+    left: 965px;
+	width: 100px;
+    height: 23px;
+	text-align: left;
+}
+
+#modal_pi_perc {
+    top: 354px;
+    left: 955px;
+	width: 100px;
+    height: 23px;
+	color: blue;
+	text-align: right;
+}
+
+#modal_bop_perc {
+    top: 656px;
+    left: 955px;
+	width: 100px;
+    height: 23px;
+	color: red;
+	text-align: right;
+}
+
+.modal_output_pd {
+	position: absolute;
+	z-index: 70;
+	width: 14px;
+	height: 17px;
+	border: none;
+	font-family: "Arial Narrow", Sans-Serif;
+    font-stretch: extra-condensed;
+	font-size: 14px;
+    /*font-weight: bold;*/
+	text-align: center;
+	padding: 0;
+	color: red;
+    /*background-color: blue;*/
+	}
+
+#modal_output_pd_18_db_txt { top: 576px; left: 216px; }
+#modal_output_pd_18_b_txt  { top: 568px; left: 238px; }
+#modal_output_pd_18_mb_txt { top: 566px; left: 264px; }
+#modal_output_pd_18_dp_txt { top: 638px; left: 215px; }
+#modal_output_pd_18_p_txt  { top: 646px; left: 235px; }
+#modal_output_pd_18_mp_txt { top: 646px; left: 256px; }
+
+#modal_output_pd_17_db_txt { top: 560px; left: 283px; }
+#modal_output_pd_17_b_txt  { top: 559px; left: 303px; }
+#modal_output_pd_17_mb_txt { top: 561px; left: 324px; }
+#modal_output_pd_17_dp_txt { top: 646px; left: 277px; }
+#modal_output_pd_17_p_txt  { top: 649px; left: 295px; }
+#modal_output_pd_17_mp_txt { top: 647px; left: 314px; }
+
+#modal_output_pd_16_db_txt { top: 561px; left: 345px; }
+#modal_output_pd_16_b_txt  { top: 560px; left: 366px; }
+#modal_output_pd_16_mb_txt { top: 562px; left: 384px; }
+#modal_output_pd_16_dp_txt { top: 646px; left: 334px; }
+#modal_output_pd_16_p_txt  { top: 650px; left: 355px; }
+#modal_output_pd_16_mp_txt { top: 645px; left: 377px; }
+
+#modal_output_pd_15_db_txt { top: 561px; left: 399px; }
+#modal_output_pd_15_b_txt  { top: 560px; left: 414px; }
+#modal_output_pd_15_mb_txt { top: 562px; left: 429px; }
+#modal_output_pd_15_dp_txt { top: 636px; left: 396px; }
+#modal_output_pd_15_p_txt  { top: 640px; left: 412px; }
+#modal_output_pd_15_mp_txt { top: 635px; left: 426px; }
+
+#modal_output_pd_14_db_txt { top: 561px; left: 441px; }
+#modal_output_pd_14_b_txt  { top: 560px; left: 456px; }
+#modal_output_pd_14_mb_txt { top: 562px; left: 471px; }
+#modal_output_pd_14_dp_txt { top: 634px; left: 440px; }
+#modal_output_pd_14_p_txt  { top: 638px; left: 453px; }
+#modal_output_pd_14_mp_txt { top: 633px; left: 468px; }
+
+#modal_output_pd_13_db_txt { top: 561px; left: 485px; }
+#modal_output_pd_13_b_txt  { top: 560px; left: 499px; }
+#modal_output_pd_13_mb_txt { top: 562px; left: 514px; }
+#modal_output_pd_13_dp_txt { top: 631px; left: 484px; }
+#modal_output_pd_13_p_txt  { top: 634px; left: 498px; }
+#modal_output_pd_13_mp_txt { top: 629px; left: 512px; }
+
+#modal_output_pd_12_db_txt { top: 561px; left: 527px; }
+#modal_output_pd_12_b_txt  { top: 560px; left: 541px; }
+#modal_output_pd_12_mb_txt { top: 562px; left: 556px; }
+#modal_output_pd_12_dp_txt { top: 620px; left: 526px; }
+#modal_output_pd_12_p_txt  { top: 625px; left: 541px; }
+#modal_output_pd_12_mp_txt { top: 621px; left: 556px; }
+
+#modal_output_pd_11_db_txt { top: 561px; left: 573px; }
+#modal_output_pd_11_b_txt  { top: 558px; left: 590px; }
+#modal_output_pd_11_mb_txt { top: 561px; left: 607px; }
+#modal_output_pd_11_dp_txt { top: 623px; left: 571px; }
+#modal_output_pd_11_p_txt  { top: 627px; left: 587px; }
+#modal_output_pd_11_mp_txt { top: 621px; left: 605px; }
+
+
+
+#modal_output_pd_28_db_txt { top: 576px; left: 1012px; }
+#modal_output_pd_28_b_txt  { top: 568px; left: 990px; }
+#modal_output_pd_28_mb_txt { top: 566px; left: 964px; }
+#modal_output_pd_28_dp_txt { top: 638px; left: 1013px; }
+#modal_output_pd_28_p_txt  { top: 646px; left: 993px; }
+#modal_output_pd_28_mp_txt { top: 646px; left: 972px; }
+
+#modal_output_pd_27_db_txt { top: 560px; left: 945px; }
+#modal_output_pd_27_b_txt  { top: 559px; left: 925px; }
+#modal_output_pd_27_mb_txt { top: 561px; left: 904px; }
+#modal_output_pd_27_dp_txt { top: 646px; left: 951px; }
+#modal_output_pd_27_p_txt  { top: 649px; left: 933px; }
+#modal_output_pd_27_mp_txt { top: 647px; left: 914px; }
+
+#modal_output_pd_26_db_txt { top: 561px; left: 883px; }
+#modal_output_pd_26_b_txt  { top: 560px; left: 862px; }
+#modal_output_pd_26_mb_txt { top: 562px; left: 844px; }
+#modal_output_pd_26_dp_txt { top: 646px; left: 894px; }
+#modal_output_pd_26_p_txt  { top: 650px; left: 873px; }
+#modal_output_pd_26_mp_txt { top: 645px; left: 851px; }
+
+#modal_output_pd_25_db_txt { top: 561px; left: 829px; }
+#modal_output_pd_25_b_txt  { top: 560px; left: 814px; }
+#modal_output_pd_25_mb_txt { top: 562px; left: 799px; }
+#modal_output_pd_25_dp_txt { top: 636px; left: 832px; }
+#modal_output_pd_25_p_txt  { top: 640px; left: 816px; }
+#modal_output_pd_25_mp_txt { top: 635px; left: 802px; }
+
+#modal_output_pd_24_db_txt { top: 561px; left: 787px; }
+#modal_output_pd_24_b_txt  { top: 560px; left: 772px; }
+#modal_output_pd_24_mb_txt { top: 562px; left: 757px; }
+#modal_output_pd_24_dp_txt { top: 634px; left: 788px; }
+#modal_output_pd_24_p_txt  { top: 638px; left: 775px; }
+#modal_output_pd_24_mp_txt { top: 633px; left: 760px; }
+
+#modal_output_pd_23_db_txt { top: 561px; left: 743px; }
+#modal_output_pd_23_b_txt  { top: 560px; left: 729px; }
+#modal_output_pd_23_mb_txt { top: 562px; left: 714px; }
+#modal_output_pd_23_dp_txt { top: 631px; left: 744px; }
+#modal_output_pd_23_p_txt  { top: 634px; left: 730px; }
+#modal_output_pd_23_mp_txt { top: 629px; left: 716px; }
+
+#modal_output_pd_22_db_txt { top: 561px; left: 701px; }
+#modal_output_pd_22_b_txt  { top: 560px; left: 687px; }
+#modal_output_pd_22_mb_txt { top: 562px; left: 672px; }
+#modal_output_pd_22_dp_txt { top: 620px; left: 702px; }
+#modal_output_pd_22_p_txt  { top: 625px; left: 687px; }
+#modal_output_pd_22_mp_txt { top: 621px; left: 672px; }
+
+#modal_output_pd_21_db_txt { top: 561px; left: 655px; }
+#modal_output_pd_21_b_txt  { top: 558px; left: 638px; }
+#modal_output_pd_21_mb_txt { top: 561px; left: 621px; }
+#modal_output_pd_21_dp_txt { top: 625px; left: 657px; }
+#modal_output_pd_21_p_txt  { top: 627px; left: 641px; }
+#modal_output_pd_21_mp_txt { top: 621px; left: 623px; }
+
+
+
+#modal_output_pd_48_db_txt { top: 756px; left: 225px; }
+#modal_output_pd_48_b_txt  { top: 764px; left: 248px; }
+#modal_output_pd_48_mb_txt { top: 766px; left: 277px; }
+#modal_output_pd_48_dl_txt { top: 690px; left: 225px; }
+#modal_output_pd_48_l_txt  { top: 679px; left: 253px; }
+#modal_output_pd_48_ml_txt { top: 682px; left: 277px; }
+
+#modal_output_pd_47_db_txt { top: 772px; left: 298px; }
+#modal_output_pd_47_b_txt  { top: 773px; left: 320px; }
+#modal_output_pd_47_mb_txt { top: 771px; left: 345px; }
+#modal_output_pd_47_dl_txt { top: 676px; left: 298px; }
+#modal_output_pd_47_l_txt  { top: 673px; left: 320px; }
+#modal_output_pd_47_ml_txt { top: 675px; left: 345px; }
+
+#modal_output_pd_46_db_txt { top: 770px; left: 365px; }
+#modal_output_pd_46_b_txt  { top: 772px; left: 389px; }
+#modal_output_pd_46_mb_txt { top: 770px; left: 413px; }
+#modal_output_pd_46_dl_txt { top: 681px; left: 370px; }
+#modal_output_pd_46_l_txt  { top: 682px; left: 395px; }
+#modal_output_pd_46_ml_txt { top: 687px; left: 413px; }
+
+#modal_output_pd_45_db_txt { top: 771px; left: 430px; }
+#modal_output_pd_45_b_txt  { top: 772px; left: 445px; }
+#modal_output_pd_45_mb_txt { top: 770px; left: 460px; }
+#modal_output_pd_45_dl_txt { top: 696px; left: 430px; }
+#modal_output_pd_45_l_txt  { top: 692px; left: 445px; }
+#modal_output_pd_45_ml_txt { top: 697px; left: 460px; }
+
+#modal_output_pd_44_db_txt { top: 771px; left: 476px; }
+#modal_output_pd_44_b_txt  { top: 772px; left: 489px; }
+#modal_output_pd_44_mb_txt { top: 770px; left: 502px; }
+#modal_output_pd_44_dl_txt { top: 698px; left: 476px; }
+#modal_output_pd_44_l_txt  { top: 694px; left: 489px; }
+#modal_output_pd_44_ml_txt { top: 699px; left: 502px; }
+
+#modal_output_pd_43_db_txt { top: 771px; left: 518px; }
+#modal_output_pd_43_b_txt  { top: 772px; left: 530px; }
+#modal_output_pd_43_mb_txt { top: 770px; left: 544px; }
+#modal_output_pd_43_dl_txt { top: 701px; left: 518px; }
+#modal_output_pd_43_l_txt  { top: 698px; left: 530px; }
+#modal_output_pd_43_ml_txt { top: 701px; left: 546px; }
+
+#modal_output_pd_42_db_txt { top: 771px; left: 562px; }
+#modal_output_pd_42_b_txt  { top: 787px; left: 571px; }
+#modal_output_pd_42_mb_txt { top: 771px; left: 577px; }
+#modal_output_pd_42_dl_txt { top: 711px; left: 562px; }
+#modal_output_pd_42_l_txt  { top: 695px; left: 571px; }
+#modal_output_pd_42_ml_txt { top: 711px; left: 577px; }
+
+#modal_output_pd_41_db_txt { top: 771px; left: 594px; }
+#modal_output_pd_41_b_txt  { top: 787px; left: 600px; }
+#modal_output_pd_41_mb_txt { top: 771px; left: 607px; }
+#modal_output_pd_41_dl_txt { top: 711px; left: 594px; }
+#modal_output_pd_41_l_txt  { top: 695px; left: 600px; }
+#modal_output_pd_41_ml_txt { top: 711px; left: 607px; }
+
+
+
+#modal_output_pd_38_db_txt { top: 756px; left: 1001px; }
+#modal_output_pd_38_b_txt  { top: 764px; left: 980px; }
+#modal_output_pd_38_mb_txt { top: 766px; left: 951px; }
+#modal_output_pd_38_dl_txt { top: 690px; left: 1005px; }
+#modal_output_pd_38_l_txt  { top: 679px; left: 975px; }
+#modal_output_pd_38_ml_txt { top: 682px; left: 951px; }
+
+#modal_output_pd_37_db_txt { top: 772px; left: 930px; }
+#modal_output_pd_37_b_txt  { top: 773px; left: 908px; }
+#modal_output_pd_37_mb_txt { top: 771px; left: 883px; }
+#modal_output_pd_37_dl_txt { top: 676px; left: 930px; }
+#modal_output_pd_37_l_txt  { top: 673px; left: 908px; }
+#modal_output_pd_37_ml_txt { top: 675px; left: 883px; }
+
+#modal_output_pd_36_db_txt { top: 770px; left: 863px; }
+#modal_output_pd_36_b_txt  { top: 772px; left: 839px; }
+#modal_output_pd_36_mb_txt { top: 770px; left: 815px; }
+#modal_output_pd_36_dl_txt { top: 681px; left: 858px; }
+#modal_output_pd_36_l_txt  { top: 682px; left: 833px; }
+#modal_output_pd_36_ml_txt { top: 687px; left: 815px; }
+
+#modal_output_pd_35_db_txt { top: 771px; left: 798px; }
+#modal_output_pd_35_b_txt  { top: 772px; left: 783px; }
+#modal_output_pd_35_mb_txt { top: 770px; left: 768px; }
+#modal_output_pd_35_dl_txt { top: 696px; left: 798px; }
+#modal_output_pd_35_l_txt  { top: 692px; left: 783px; }
+#modal_output_pd_35_ml_txt { top: 697px; left: 768px; }
+
+#modal_output_pd_34_db_txt { top: 771px; left: 752px; }
+#modal_output_pd_34_b_txt  { top: 772px; left: 739px; }
+#modal_output_pd_34_mb_txt { top: 770px; left: 726px; }
+#modal_output_pd_34_dl_txt { top: 698px; left: 752px; }
+#modal_output_pd_34_l_txt  { top: 694px; left: 739px; }
+#modal_output_pd_34_ml_txt { top: 699px; left: 726px; }
+
+#modal_output_pd_33_db_txt { top: 771px; left: 710px; }
+#modal_output_pd_33_b_txt  { top: 772px; left: 698px; }
+#modal_output_pd_33_mb_txt { top: 770px; left: 684px; }
+#modal_output_pd_33_dl_txt { top: 699px; left: 710px; }
+#modal_output_pd_33_l_txt  { top: 698px; left: 698px; }
+#modal_output_pd_33_ml_txt { top: 701px; left: 684px; }
+
+#modal_output_pd_32_db_txt { top: 771px; left: 666px; }
+#modal_output_pd_32_b_txt  { top: 787px; left: 657px; }
+#modal_output_pd_32_mb_txt { top: 771px; left: 651px; }
+#modal_output_pd_32_dl_txt { top: 711px; left: 666px; }
+#modal_output_pd_32_l_txt  { top: 695px; left: 657px; }
+#modal_output_pd_32_ml_txt { top: 711px; left: 651px; }
+
+#modal_output_pd_31_db_txt { top: 771px; left: 634px; }
+#modal_output_pd_31_b_txt  { top: 787px; left: 628px; }
+#modal_output_pd_31_mb_txt { top: 771px; left: 621px; }
+#modal_output_pd_31_dl_txt { top: 711px; left: 634px; }
+#modal_output_pd_31_l_txt  { top: 695px; left: 628px; }
+#modal_output_pd_31_ml_txt { top: 711px; left: 621px; }
