@@ -118,15 +118,18 @@
       src="./Gráfico Periodontal_files/js/create_objects.js"
     ></script>
     <!-- Carrega o script `create_objects.js`, que provavelmente cria objetos JavaScript para gerenciar os dados do formulário (ex.: objetos para cada dente). -->
+  
+    <script type="text/javascript" src="./Gráfico Periodontal_files/js/saveFormData.js"></script>
+
   </head>
 
   <body>
     <div id="form_periodontal_chart">
       <!-- Contêiner principal do formulário periodontal. Agrupa todos os elementos do gráfico e dos campos de entrada. -->
 
-      <form autocomplete="off" oninput="calc();">
-        <!-- Formulário HTML com `autocomplete="off"` para desativar o preenchimento automático do navegador. O evento `oninput="calc();"` chama a função `calc()` (definida em um script externo) sempre que um campo de entrada é alterado, provavelmente para recalcular médias ou atualizar o gráfico. -->
-
+      <form autocomplete="off" oninput="calc();" action="save_periograma.php" method="POST" id="periograma_form">
+          <!-- Formulário HTML com `autocomplete="off"` para desativar o preenchimento automático do navegador. O evento `oninput="calc();"` chama a função `calc()` (definida em um script externo) sempre que um campo de entrada é alterado, provavelmente para recalcular médias ou atualizar o gráfico. -->
+  
         <div id="periodontal_chart_teeth">
           <img
             src="./Gráfico Periodontal_files/svg/svg_teeth.svg"
@@ -20776,19 +20779,19 @@
           />
         </div>
 
-        <div
-          class="menu_button"
-          id="menu_button_save_to_hd"
-          onclick="save_to_hd();"
-          type="button"
-          title="Salvar dados no seu próprio disco rígido (nenhum dado será salvo online)"
+        <button
+        type="button"
+        class="menu_button"
+        id="menu_button_save_to_hd"
+        onclick="saveFormData();"
+        title="Salvar dados no Banco de Dados"
         >
-          <img
-            src="./Gráfico Periodontal_files/svg/download-solid.svg"
-            height="14"
-          />
-          Salvar
-        </div>
+        <img
+          src="./Gráfico Periodontal_files/svg/download-solid.svg"
+          height="14"
+        />
+        Salva
+      </button>
 
         <div
           class="menu_button"
