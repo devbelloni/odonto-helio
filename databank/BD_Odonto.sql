@@ -159,3 +159,28 @@ CREATE TABLE ProcedimentosDentarios (
     FOREIGN KEY (ID_Professor) REFERENCES Professores(ID_Professor),
     FOREIGN KEY (ID_Aluno) REFERENCES Alunos(ID_Aluno)
 );
+
+ALTER TABLE Periograma MODIFY Indice_de_Placa FLOAT;
+ALTER TABLE Periograma MODIFY Indice_Sangramento_Gengival FLOAT;
+
+ALTER TABLE Periograma ADD COLUMN Dados_JSON JSON;
+
+CREATE USER 'odonto'@'localhost' IDENTIFIED BY 'senha_segura';
+GRANT ALL PRIVILEGES ON ClinicaOdontologicaUNG.* TO 'odonto'@'localhost';
+FLUSH PRIVILEGES;
+
+CREATE TABLE Periograma_Detalhes (
+    ID_Detalhe INT AUTO_INCREMENT PRIMARY KEY,
+    ID_Periograma INT NOT NULL,
+    Dente INT NOT NULL,
+    Regiao VARCHAR(10) NOT NULL,
+    Profundidade FLOAT,
+    Mobilidade INT,
+    Furca INT,
+    Perda_Ossea FLOAT,
+    Recessao_Gengival FLOAT,
+    Observacao TEXT,
+    FOREIGN KEY (ID_Periograma) REFERENCES Periograma(ID_Periograma)
+);
+
+
