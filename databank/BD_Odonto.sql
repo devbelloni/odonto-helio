@@ -183,4 +183,7 @@ CREATE TABLE Periograma_Detalhes (
     FOREIGN KEY (ID_Periograma) REFERENCES Periograma(ID_Periograma)
 );
 
+ALTER TABLE Periograma_Detalhes DROP COLUMN Regiao;
+
+
 
