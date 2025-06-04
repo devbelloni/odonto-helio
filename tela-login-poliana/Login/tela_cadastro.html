@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <style>
+    :root {
+      --color-primary: #ecf0f1;
+      --color-secundary: #58af9b;
+      --color-terciary: #fff;
+      --color-quadriary: #7f8c8d;
+
+      --font-primary: "Open Sans", sans-serif;
+
+      --size-titulo: 1.75rem;
+      --size-subtitulo: 0.875rem;
+
+      --weigth-ligth: 300;
+      --weigth-bold: bold;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      background-color: var(--color-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: var(--color-terciary);
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h2 {
+      font-size: var(--size-titulo);
+      font-weight: var(--weigth-bold);
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: var(--size-subtitulo);
+      color: var(--color-quadriary);
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .campo {
+      display: flex;
+      align-items: center;
+      background-color: var(--color-primary);
+      border: 1px solid var(--color-quadriary);
+      border-radius: 5px;
+      padding: 5px 10px;
+    }
+
+    .campo input {
+      border: none;
+      outline: none;
+      padding: 5px;
+      font-family: var(--font-primary);
+      background: transparent;
+    }
+
+    .campo i {
+      margin-right: 5px;
+      color: var(--color-quadriary);
+    }
+
+    button {
+      padding: 7px 15px;
+      border: none;
+      background-color: var(--color-secundary);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #469381;
+    }
+
+    .voltar-btn {
+      margin-top: 15px;
+      background-color: var(--color-quadriary);
+    }
+
+    .voltar-btn:hover {
+      background-color: #636e72;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+
+  <!-- Ícones do Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Crie uma conta</h2>
+    <p>Use um e-mail para registro:</p>
+
+    <form action="cadastrar.php" method="POST">
+      <div class="campo">
+        <i class="fas fa-user"></i>
+        <input type="text" name="nome" placeholder="Nome" required>
+      </div>
+
+      <div class="campo">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+
+      <div class="campo">
+        <i class="fas fa-lock"></i>
+        <input type="password" name="senha" placeholder="Senha" required>
+      </div>
+
+      <div class="campo">
+        <i class="fas fa-lock"></i>
+        <input type="text" name="level" placeholder="Level de acesso" maxlength="1" required>
+      </div>
+
+      <button type="submit">Criar</button>
+    </form>
+
+    <!-- Botão para voltar à index -->
+    <div>
+      <a href="index.php">
+        <button class="voltar-btn">Voltar</button>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
